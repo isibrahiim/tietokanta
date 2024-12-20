@@ -1,0 +1,42 @@
+# 1. Connect to the Server via SSH
+ssh -p 9092 iisse@tietokanta.dy.fi
+
+# 2. Enter Password
+iisse@tietokanta.dy.fi's password: (Enter the password)
+
+# 3. Access the Server's Linux Environment
+Linux dserver 5.10.103-v7+ #1529 SMP Tue Mar 8 12:21:37 GMT 2022 armv7l
+
+# 4. Welcome Message (Informational)
+Tervetuloa ohjelmointi palvelimelle.
+FTP osoite on tietokanta.dy.fi ja portti 3221, user ja pass samat kuin SSH yhteydessä.
+SSH portti on 9092
+
+# 5. Database Names for 2022
+wpetunimi
+phpetunimi
+libetunimi
+
+# 6. Database Names for 2023-2024
+wpusername
+phpusername
+libusername
+
+# 7. Database User
+sukunimi
+Poikkeukset: "dhif2, ling2, orchi2, sandell2, hou2, korhonena, korhonenj"
+
+# 8. Database Password
+tietomekaanikko
+
+# 9. HTTP Access to the Server
+http://tietokanta.dy.fi:8243
+
+# 10. Change Password Command
+passwd
+
+#Example: 
+$hn = 'localhost';
+$db = 'phpiisse';
+$un = 'ibrahim';
+$pw = 'tietomekaanikko';
